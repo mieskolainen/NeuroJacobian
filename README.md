@@ -3,6 +3,6 @@
 
 NeuroJacobian - automatic learning of Jacobian mappings for importance MC sampling
 
-A simplified sand-box model.
+A simplified sand-box model. Requires symbolic toolbox.
 
 mikael.mieskolainen@cern.ch, 2018
