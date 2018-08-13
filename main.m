@@ -113,7 +113,7 @@ for n = 1:S
     % Generative mapping
     eval(sprintf('g = gN_(z,G0,G1,b0,b1);', N));
     
-    % Both are the same, because det(A) = det(A^{-1})
+    % Both are the same, because 1/det(A) = det(A^{-1})
     % eval(sprintf('AbsInvDetJ = 1/abs(detJ_N%d(z,G0,G1,b0,b1));', N));
     eval(sprintf('AbsInvDetJ = abs(detinvJ_N%d(z,G0,G1,b0,b1));', N));
     
