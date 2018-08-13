@@ -39,6 +39,7 @@ fclose(file);
 
 close all;
 
+% Some of these are just for visualization (not for use)
 vecsigmoid = @(x) ones(length(x),1) ./ (1 + exp(-x));
 sigmoid  = @(x) 1./(1+exp(-x));
 modtanh  = @(x) (3/4)*tanh(x) + (1/4)*x;
