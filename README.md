@@ -3,6 +3,6 @@
 
 NeuroJacobian - automatic learning of Jacobian mappings
 
-A simplified sand-box model. Requires symbolic toolbox.
+A simplified sandbox model. Requires symbolic toolbox.
 
 mikael.mieskolainen@cern.ch, 2018
